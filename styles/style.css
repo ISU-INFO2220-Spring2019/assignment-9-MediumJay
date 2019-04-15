@@ -1,0 +1,105 @@
+﻿/*
+Jason Burnett
+January 26, 2019
+INFO 2220
+Jon Holmes
+Assignment 2
+Purpose: This is my style sheet to apply external CSS.  
+This file has been validated, no errors found. 
+*/
+
+/*Here is where I imported my other CSS file into this CSS file*/
+@import url("stylesheetforimport.css");
+
+body
+{
+    font-family: 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans', 'Arial', 'sans-serif';
+    padding: 10px;
+}
+
+p
+{
+    padding:2ex;
+}
+
+#csstestpagebody p span
+{
+    font-weight:bold;
+}
+
+#csstestpagebody table span
+{
+    text-decoration: underline;
+    font-weight:bold;
+}
+
+a
+{
+    color: #F80;
+}
+
+h1
+{
+    font:2em; /*Need to fix a lot of stuff; double check the doc*/
+    color: #F80;
+}
+
+h2 
+{
+    font: 1.8em; /*Need to fix a lot of stuff; double check the doc*/
+    color: #888;
+}
+
+h3
+{
+    font: 1.6em; /*Need to fix a lot of stuff; double check the doc*/
+}
+
+th
+{
+    background-color:#F80;
+    color: #FFF; 
+}
+
+tr
+{
+    font-size:0.9em; /*Not sure if it wants font size or not. Just says size, its not very specific*/
+    background-color:#EEE;
+}
+
+tr.other
+{
+    background-color:#DDD;
+}
+
+.success {
+    color: #080;
+    font-weight: bold;
+    background-color: #F0FFF0;
+    border-style: solid;
+    border-width: 1px;
+    padding: .3em;
+    margin: .3em;
+}
+
+.warning {
+    color: #880; 
+    font-weight: bold;
+    background-color: #FFFFF0;
+    border-style: solid;
+    border-width: 1px;
+    padding: .3em;
+    margin: .3em;
+}
+
+.error {
+    color: #800;
+    font-weight: bold;
+    background-color: #FFF0F0;
+    border-style: solid;
+    border-width: 1px;
+    padding: .3em;
+    margin: .3em;
+}
+
+/*Set all of the existing HTML files and any future HTML files to use this style sheet.*/

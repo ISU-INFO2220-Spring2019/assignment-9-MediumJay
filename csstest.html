@@ -1,0 +1,78 @@
+﻿<!-----------
+Jason Burnett
+January 25, 2019
+INFO 2220
+Jon Holmes
+Assignment 2
+Purpose: This page's purpose is to help me learn how to use CSS properly.
+------------>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jason's CSS Test Page</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" media="screen" />   
+    <style>
+
+        body
+        {
+            background: url(images/background-ribbon.png) no-repeat;
+            background-color: #ded08e;
+            margin-left: 100px;
+        }
+
+        table
+        {
+            border: solid;
+        }
+    </style>
+</head>
+
+<body id="csstestpagebody">
+    <div class="success">Test Success</div>
+    <div class="warning">Test Warning</div>
+    <div class="error">Test Error</div>
+
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+
+    <p>
+        This is a <span>test paragraph of text.</span> I shall use it <span class="special">to test stuff.</span>
+    </p>
+
+    <!--Here i filled the table with data relevant to me-->
+    <table>
+            <tr>
+                <th>Category</th>
+                <th>Most Liked</th>
+                <th>Least Liked</th>
+            </tr>
+            <tr class="other">
+                <td>City</td>
+                <td>Gothenburg</td>
+                <td>Farmington</td>
+            </tr>   
+            <tr>    
+                <td>Age</td>
+                <td><span>18</span></td>
+                <td><span>13</span></td>
+            </tr> 
+            <tr class="other">    
+                <td>Restaurant</td>
+                <td>Tom's Gyro</td>
+                <td>Denny's</td>
+            </tr>   
+            <tr>    
+                <td>Game Series</td>
+                <td>Metal Gear Solid</td>
+                <td>Devil May Cry</td>
+            </tr>   
+            <tr class="other">    
+                <td>Candy</td>
+                <td>Milkyway</td>
+                <td>Black Licorice</td>
+            </tr>
+    </table>
+    <a href="index.html">Back to Assignment List</a>
+</body>
+</html>

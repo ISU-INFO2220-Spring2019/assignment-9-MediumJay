@@ -1,0 +1,92 @@
+ [
+    {
+      "Title": "HTML and CSS: Design and Build Websites",
+      "ISBN": 9781118008188,
+      "Author": {
+        "fname": "Jon",
+        "mname": "",
+        "lname": "Duckett"
+      },
+      "Tags": [ "CSS", "Web", "Design", "Programming" ]
+    },
+    {
+      "Title": "Beginning Programming All-In-One Desk Reference For Dummies",
+      "ISBN": 9780470108543,
+      "Author": {
+        "fname": "Wallace",
+        "mname": "",
+        "lname": "Wang"
+      },
+      "Tags": [ "Introductory", "Beginning", "Programming", "Languages", "Software" ]
+    },
+    {
+      "Title": "Beginning C++ Through Game Programming",
+      "ISBN": 9781435457423,
+      "Author": {
+        "fname": "Michael",
+        "mname": "",
+        "lname": "Dawson"
+      },
+      "Tags": [ "Tutorials", "C++", "Game", "Programming" ]
+    },
+    {
+      "Title": "Code: The Hidden Language of Computer Hardware and Software",
+      "ISBN": 735611319,
+      "Author": {
+        "fname": "Charles",
+        "mname": "",
+        "lname": "Petzold"
+      },
+      "Tags": [ "Machine Theory", "Business", "Software", "Programming" ]
+    },
+    {
+      "Title": "The Principles of ObjectOriented Javascript",
+      "ISBN": 9781593275402,
+      "Author": {
+        "fname": "Nicholas",
+        "mname": "C.",
+        "lname": "Zakas"
+      },
+      "Tags": [ "Object-Oriented", "Software", "Design", "JavaScript" ]
+    },
+    {
+      "Title": "How Linux Works: What Every Superuser Should Know",
+      "ISBN": 9781593275679,
+      "Author": {
+        "fname": "Brian",
+        "mname": "",
+        "lname": "Ward"
+      },
+      "Tags": [ "Linux", "UNIX", "Networking", "System Administration", "Operating Systems" ]
+    },
+    {
+      "Title": "The Psychology of Computer Programming: Silver Anniversary Edition",
+      "ISBN": 9780932633422,
+      "Author": {
+        "fname": "Gerald",
+        "mname": "M.",
+        "lname": "Weinberg"
+      },
+      "Tags": [ "Object-Oriented", "Software", "JavaScript" ]
+    },
+    {
+      "Title": "The Mythical Man-Month: Essays on Software Engineering",
+      "ISBN": 9780201835953,
+      "Author": {
+        "fname": "Frederick",
+        "mname": "P.",
+        "lname": "Brooks"
+      },
+      "Tags": [ "Microprocessors", "Design", "Software", "Engineering", "Development" ]
+    },
+    {
+      "Title": "Violent Python: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security Engineers",
+      "ISBN": 9781597499576,
+      "Author": {
+        "fname": "TJ.",
+        "mname": "",
+        "lname": "O'Connor"
+      },
+      "Tags": [ "Hacking", "Networking", "Security" ]
+    }
+  ]

@@ -1,0 +1,63 @@
+﻿/*
+Jason Burnett
+January 26, 2019
+INFO 2220
+Jon Holmes
+Assignment 2
+Purpose: This style sheet will help me learn how to import an external CSS into another CSS file.
+    This file has been validated, no errors found. 
+*/
+
+a:hover
+{
+    color: #888;
+}
+
+td:hover
+{
+    background-color: #000;
+    color:#FFF;
+    cursor: cell;
+}
+
+/*to make the span not bold anymore, I had to specify the #csstestpagebody ID, I
+    believe for specificity reasons*/
+span.special
+{
+    font-weight: normal; /*last things to take care of: quotes, and appending message:*/
+    text-transform: uppercase;
+    text-decoration: overline;
+
+}
+    /*I could not find any reference as to how to append quotes to some text, so i found this online
+     https://stackoverflow.com/questions/8040217/adding-double-quotes-to-a-paragraph-with-css*/
+#csstestpagebody span.special:before
+{
+    content: open-quote;
+}
+
+#csstestpagebody span.special:after
+{
+    content: close-quote;
+
+}
+
+
+/* I could not figure out with the text book how to append text using CSS per the directions, so i found this on the internet
+https://stackoverflow.com/questions/2741312/using-css-to-insert-text*/
+
+div.success:before
+{
+    content: "Message: ";
+}
+
+div.warning:before
+{
+    content: "Message: ";
+}
+
+div.error:before
+{
+    content: "Message: ";
+}
+

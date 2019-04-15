@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link href="styles/ajax.css" rel="stylesheet"/>
+    <link href="styles/storage.css" rel="stylesheet"/>
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <script src="scripts/storage.js"></script>
+</head>
+<body>
+    
+        <fieldset id="loginForm">
+            <label>Username:</label>
+            <input type="text" id="username"/>
+            <label>Password:</label>
+            <input type="text" id="password"/>
+            <label>Remember Me: </label>
+            <input type="checkbox" id="rememberMe" />
+            <button id="login">Login</button>
+            <button id="forgetMe">Forget Me</button>
+        </fieldset>
+        <fieldset id="userForm">
+            <label>Name:</label>
+            <input type="text" id="nameEntry" />
+            <label>Phone: </label>
+            <input type="tel" id="phoneEntry" />
+            <label>Age: </label>
+            <input type="text" id="age" />
+            <fieldset>
+                <legend>Group</legend>
+                <label>Group 1</label>
+                <input type="radio" id="group1" name="group" value="1"/>
+                <label>Group 2</label>
+                <input type="radio" id="group2" name="group" value="2"/>
+                <label>Group 3</label>
+                <input type="radio" id="group3" name="group" value="3"/>
+            </fieldset>
+            <button id="addPerson">Add Person</button>
+            <button id="clearStorage">Clear Storage</button>
+        </fieldset>
+    <a href="viewingpage.html">View Storage</a>
+    <ul id="peopleForDisplay">
+
+    </ul>
+    <a href="index.html">Back to Assignment List</a>
+</body>
+</html>

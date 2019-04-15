@@ -1,0 +1,13 @@
+﻿#loginForm{
+    border: 1px solid; 
+    background-color: #acdef8; 
+    width: 400px; 
+    height: 200px; 
+}
+
+#userForm {
+    border: 1px solid;
+    background-color: #acdef8;
+    width: 400px;
+    height: 200px;
+}

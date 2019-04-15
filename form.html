@@ -1,0 +1,72 @@
+﻿<!-----------
+Jason Burnett
+January 16, 2019
+INFO 2220
+Jon Holmes
+Assignment 1 - Part III
+Purpose: This is the form section of my website so I can implement and understand the use of forms 
+------------>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jason Burnett's Form</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+    <form action="http://teaching.jdholmes.net/postvget/reader/index.php" method="post">
+
+        <!--based on what i got from the pdf, i thought i needed to add id's to my controls and link those to
+            their corresponding labels using the for attribute so that the labels where set to the id's, not the names.-->
+        <input type="hidden" name="studentID" value="922186" />
+
+        <label for="txtFirstName">First Name:</label>
+        <input id="txtFirstName" type="text" name="firstName" />
+
+
+        <label for="txtLastName">Last Name:</label>
+        <input id="txtLastName" type="text" name="lastName" />
+
+
+        <label for="txtSecret">Secret Key:</label>
+        <input id="txtSecret" type="password" name="secretPhrase" />
+
+
+        <label for="ddlColors">Favorite Color:</label>
+        <select id="ddlColors" name="colors">
+            <option value="Blue">Blue</option>
+            <option value="Green">Green</option>
+            <option value="Red" selected="selected">Red</option>
+            <option value="Purple">Purple</option>
+        </select>
+
+        <fieldset>
+            <legend>Day of the Week</legend> 
+            <input id="rbSunday" type="radio" name="dayOfWeek" value="Sunday" /> <label>Sunday</label>
+            <input id="rbMonday" type="radio" name="dayOfWeek" value="Monday" /> <label>Monday</label>
+            <input id="rbTuesday" type="radio" name="dayOfWeek" value="Tuesday" /> <label>Tuesday</label>
+            <input id="rbWednesday" type="radio" name="dayOfWeek" value="Wednesday" /> <label>Wednesday</label>
+            <input id="rbThursday" type="radio" name="dayOfWeek" value="Thursday" /> <label>Thursday</label>
+            <input id="rbFriday" type="radio" name="dayOfWeek" value="Friday" checked="checked" /> <label>Friday</label>
+            <input id="rbSaturday" type="radio" name="dayOfWeek" value="Saturday" /> <label>Saturday</label>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Times</legend>
+            <input id="chk11am" type="checkbox" name="timeOfDay" value="11:00AM" /> <label>11:00AM</label>
+            <input id="chk12pm" type="checkbox" name="timeOfDay" value="12:00PM" /> <label>12:00PM</label>
+            <input id="chk1pm" type="checkbox" name="timeOfDay" value="1:00PM" /> <label>1:00PM</label>
+            <input id="chk2pm" type="checkbox" name="timeOfDay" value="2:00PM" checked="checked" /> <label>2:00PM</label>
+            <input id="chk3pm" type="checkbox" name="timeOfDay" value="3:00PM" /> <label> 3:00PM </label>
+        </fieldset>
+
+
+        <label for="txtareaDescription">Description:</label>
+        <textarea id="txtareaDescription" name="description"></textarea>
+
+        <input type="submit" name="sendToServer" value="Send to Server" />
+
+    </form>
+    <a href="index.html">Back to Assignment List</a>
+</body>
+</html>

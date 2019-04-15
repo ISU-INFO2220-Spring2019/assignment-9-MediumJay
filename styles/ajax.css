@@ -1,0 +1,59 @@
+﻿
+td:hover{
+    background-color: #AAA; 
+    color: #FFF; 
+}
+
+td {
+    padding: 10px 10px 5px 10px; 
+    width: 200px;
+}
+
+th {
+    background-color: #F80;
+    color: #FFF;
+}
+
+tr {
+    border: 1px solid #000; 
+    font-size: 0.9em; /*Not sure if it wants font size or not. Just says size, its not very specific*/
+    background-color: #EEE;
+}
+
+tr.other, tr:nth-child(2n+1) {
+    border: 1px solid #000;
+    background-color: #DDD;
+}
+
+table{
+    border: 1px Solid #000;  
+    border-spacing:0; 
+}
+
+
+li.group1 {
+    background-color: #A14;
+    color: #FFF;
+    padding: 10px 10px 5px 10px;
+    width: 320px;
+    margin: 3px 4px 3px 4px;
+    border: 1px solid #000
+}
+
+li.group2 {
+    background-color: #8A0;
+    color: #FFF;
+    padding: 10px 10px 5px 10px;
+    width: 320px;
+    margin: 3px 4px 3px 4px;
+    border: 1px solid #000
+}
+
+li.group3 {
+    background-color: #47F;
+    color: #FFF;
+    padding: 10px 10px 5px 10px;
+    width: 320px;
+    margin: 3px 4px 3px 4px;
+    border: 1px solid #000
+}
